@@ -1,20 +1,17 @@
 import './App.css'
-import About from './components/About'
-import Eyes from './components/Eyes'
-import Landing from './components/Landing'
-import Marquee from './components/Marquee'
-import Navbar from './components/Navbar'
+import {About, Eyes, Featured, Landing, Marquee, Navbar} from './components/index'
 
 function App() {
 
   return (
     <>
-      <div className='text-white bg-zinc-900 min-h-screen'>
+      <div className='text-zinc-100 bg-zinc-900 min-h-screen'>
         <Navbar />
         <Landing />
         <Marquee />
         <About />
         <Eyes />
+        <Featured />
       </div>
     </>
   )
